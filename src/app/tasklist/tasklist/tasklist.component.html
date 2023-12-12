@@ -1,0 +1,35 @@
+<div class="container">
+    <h2 class="mb-4">Task List</h2>
+    <button class="btn btn-outline-success me-2 btn-create-task" type="button" routerLink='/task-form'>Create
+        Task</button>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Completed</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Assignee</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let item of items'>
+                <td>{{item.title}}</td>
+                <td>{{item.description}}</td>
+                <td>
+
+                    <span>{{item.completed ? 'Completed' : 'Not Completed'}}</span>
+                </td>
+                <td>{{item.dueDate}}</td>
+                <td>{{item.priority}}</td>
+                <td>{{item.assignee}}</td>
+                <td>
+                    <button class="btn btn-delete" type="button" (click)='del(item.id)'>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

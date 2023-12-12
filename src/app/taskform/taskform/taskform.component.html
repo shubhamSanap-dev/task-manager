@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <button class="btn btn-outline-danger me-2" type="button" routerLink='/login' (click)="signout()">Sign
+                Out</button>
+            <button class="btn btn-outline-success me-2" type="button" routerLink='/task-list'>Task List</button>
+
+            <form [formGroup]="myForm" (ngSubmit)="submit(); myForm.reset();">
+                <div class="mb-3">
+                    <label class="form-label">Title</label>
+                    <input type="text" class="form-control" formControlName="title">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Description</label>
+                    <textarea type="text" class="form-control" formControlName="description"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" formControlName="completed">
+                    <label class="form-check-label">Completed</label>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Due Date</label>
+                    <input type="date" class="form-control" formControlName="dueDate">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Priority</label>
+                    <select formControlName="priority" class="form-select">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Assignee</label>
+                    <input type="text" formControlName="assignee" class="form-control">
+                </div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

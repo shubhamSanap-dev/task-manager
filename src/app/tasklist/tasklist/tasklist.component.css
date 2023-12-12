@@ -1,0 +1,49 @@
+body {
+    background-color: #ecf0f1; /* Clouds */
+}
+
+.container {
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #3498db; /* Belize Hole */
+}
+
+.btn-create-task {
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #3498db; /* Belize Hole */
+    color: #ffffff;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Silver */
+}
+
+.table tbody tr:hover {
+    background-color: #d5d8dc; /* Gainsboro */
+}
+
+.btn-delete {
+    background-color: #e74c3c; /* Alizarin */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b; /* Pomegranate */
+}

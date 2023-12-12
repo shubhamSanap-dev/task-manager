@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f8ff; /* Light Sky Blue */
+}
+
+.container {
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #2c3e50; /* Midnight Blue */
+}
+
+input.form-control {
+    border-radius: 5px;
+    border: 1px solid #3498db; /* Belize Hole */
+}
+
+button.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2ecc71; /* Emerald Green */
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a {
+    color: #3498db; /* Belize Hole */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

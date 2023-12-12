@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "title": "task 2",
+      "description": "create registration page",
+      "completed": "",
+      "dueDate": "2023-12-14",
+      "priority": "high",
+      "assignee": "shubham sanap",
+      "id": 4
+    }
+  ],
+  "newuser": [
+    {
+      "username": "melog",
+      "password": "melog",
+      "mobile": 84964196,
+      "id": 1
+    },
+    {
+      "username": "shubham",
+      "password": "12345",
+      "mobile": 854852555,
+      "id": 2
+    },
+    {
+      "username": "ShubhamS",
+      "password": "shubham@123",
+      "mobile": 8668691480,
+      "id": 3
+    },
+    {
+      "username": "shubhamS",
+      "password": "12345",
+      "mobile": 8668691480,
+      "id": 4
+    }
+  ]
+}

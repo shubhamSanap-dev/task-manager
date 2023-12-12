@@ -1,0 +1,57 @@
+body {
+    background-color: #ecf0f1; /* Clouds */
+}
+
+.container-fluid {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: #ffffff;
+    margin-top: 0; /* Remove the margin-top property */
+}
+
+h2 {
+    color: #3498db; /* Belize Hole */
+}
+
+.btn-outline-danger,
+.btn-outline-success {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #2c3e50; /* Midnight Blue */
+}
+
+.form-control,
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #3498db; /* Belize Hole */
+}
+
+.form-check-label {
+    color: #2c3e50; /* Midnight Blue */
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2ecc71; /* Emerald Green */
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60; /* Nephritis */
+}
