@@ -26,6 +26,10 @@ export class TasklistComponent implements OnInit {
     })
   }
 
+  // update( ){
+  //   this.taskservice.edit(item.id, data)
+  // }
+
   ngOnInit() {
   }
 

@@ -13,6 +13,8 @@ const routes: Routes = [
   {path:'task-list',canActivate:[AuthGuard],  loadChildren:()=>import('./tasklist/tasklist.module').then(m=>m.TasklistModule)},
   {path:'task-form',canActivate:[AuthGuard],  loadChildren:()=>import('./taskform/taskform.module').then(m=>m.TaskformModule)},
   
+  {path:'task-form/:id',canActivate:[AuthGuard],  loadChildren:()=>import('./taskform/taskform.module').then(m=>m.TaskformModule)},
+  
   {path:'**', component:LoginComponent}
 ];
 

@@ -24,6 +24,13 @@ export class TaskService {
     return this._path.delete(apiurl)
   }
 
+  edit(id:any,data:any):Observable<any>{
+    return this._path.put(`${this.Url}/${id}`, data)
+  }
+
+  getCurrentData(id){
+    return this._path.get(`${this.Url}/${id}`)
+  }
   
 
 }

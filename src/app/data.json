@@ -1,13 +1,22 @@
 {
   "tasks": [
     {
-      "title": "task 2",
-      "description": "create registration page",
+      "title": "adsf",
+      "description": "asdfasdf",
+      "completed": false,
+      "dueDate": "2023-12-23",
+      "priority": "low",
+      "assignee": "shubha,",
+      "id": 1
+    },
+    {
+      "title": "asdfasdf",
+      "description": "asdfasdf",
       "completed": "",
-      "dueDate": "2023-12-14",
-      "priority": "high",
-      "assignee": "shubham sanap",
-      "id": 4
+      "dueDate": "",
+      "priority": "medium",
+      "assignee": "asdfasdf",
+      "id": 6
     }
   ],
   "newuser": [
@@ -34,6 +43,12 @@
       "password": "12345",
       "mobile": 8668691480,
       "id": 4
+    },
+    {
+      "username": "komal",
+      "password": "1234",
+      "mobile": 9879898,
+      "id": 5
     }
   ]
 }

@@ -12,7 +12,8 @@
                 <th>Due Date</th>
                 <th>Priority</th>
                 <th>Assignee</th>
-                <th>Delete</th>
+                <th colspan="2">Actions</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -28,6 +29,11 @@
                 <td>{{item.assignee}}</td>
                 <td>
                     <button class="btn btn-delete" type="button" (click)='del(item.id)'>Delete</button>
+                </td>
+                <td>
+                    <button class="btn btn-dark" type="button" >
+                        <a routerLink="/task-form/{{item.id}}">Edit</a>
+                    </button>
                 </td>
             </tr>
         </tbody>
