@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./taskform.component.css']
 })
 export class TaskformComponent implements OnInit {
-
+  editingMode: boolean=false;
   myForm: FormGroup;
 
   constructor(private fb: FormBuilder, 
@@ -28,6 +28,7 @@ export class TaskformComponent implements OnInit {
     console.log(this.route.snapshot.params);
     const taskId = this.route.snapshot.params.id;
     if (taskId) {
+      this.editingMode = true;
       this.taskservice.getCurrentData(taskId).subscribe(res => {
         this.myForm = this.fb.group({
           title: res['title'],
